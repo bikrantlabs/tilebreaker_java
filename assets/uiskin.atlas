@@ -1,0 +1,20 @@
+
+uiskin.png
+size: 1024, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+button_danger
+  rotate: false
+  xy: 2, 2
+  size: 297, 74
+  orig: 297, 74
+  offset: 0, 0
+  index: -1
+button_success
+  rotate: false
+  xy: 301, 2
+  size: 297, 74
+  orig: 297, 74
+  offset: 0, 0
+  index: -1

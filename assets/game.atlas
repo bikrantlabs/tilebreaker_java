@@ -1,0 +1,11 @@
+game.png
+size:512,64
+repeat:none
+ball
+bounds:296,2,32,32
+brick_normal
+bounds:132,2,128,32
+paddle
+bounds:2,2,128,32
+powerup_expand
+bounds:262,2,32,32

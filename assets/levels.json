@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "starsEarned": 0,
+    "powerup_id": "expand_paddle",
+    "rows": [
+      "1111111",
+      "1111111",
+      "1111111"
+    ]
+  },
+  {
+    "id": 2,
+    "starsEarned": 0,
+    "powerup_id": null
+  }
+]

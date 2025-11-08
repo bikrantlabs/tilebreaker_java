@@ -47,7 +47,7 @@ public class MainMenuScreen extends BaseScreen {
         play.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y) {
                 // switch to GameScreen
-//                game.setScreen(new GameScreen(game));
+                game.setScreen(new GameScreen(game));
 
             }
         });

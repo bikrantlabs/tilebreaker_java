@@ -68,6 +68,12 @@ public class AssetManagerWrapper {
         return manager.get(GAME_ATLAS, TextureAtlas.class);
     }
 
+    public static Drawable getGameDrawable(GameRegions gameRegion) {
+        TextureAtlas atlas = getTextureAtlas();
+        return new TextureRegionDrawable(atlas.findRegion(gameRegion.name));
+
+    }
+
     public static TextureAtlas getUiAtlas() {
         return manager.get(UI_SKIN_ATLAS, TextureAtlas.class);
     }
